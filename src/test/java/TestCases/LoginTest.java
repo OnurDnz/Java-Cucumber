@@ -16,8 +16,8 @@ public class LoginTest {
         driver.get("https://www.google.com.tr/");
     }
 
-    @When("I will search in searchbox")
-    public void ı_Will_Search_In_Searchbox() throws InterruptedException {
+    @When("I will search in search box")
+    public void I_Will_Search_In_Search_box() throws InterruptedException {
         driver.findElement(By.name("q")).sendKeys("Test");
         Thread.sleep(1000);
         driver.findElement(By.name("btnK")).click();
