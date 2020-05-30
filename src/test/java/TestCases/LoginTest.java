@@ -1,19 +1,25 @@
 package TestCases;
 
+import Helpers.WaitHelper;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class LoginTest {
     protected WebDriver driver;
+    protected WaitHelper helper = new WaitHelper();
 
     @Given("I will launch browser")
     public void I_will_launch_browser() {
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
+        driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.get("https://www.google.com.tr/");
+        WaitHelper.WaitForPageLoad(driver);
     }
 
     @When("I will search in search box")

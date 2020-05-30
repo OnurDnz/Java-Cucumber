@@ -1,2 +1,5 @@
 TestCases\LoginTest.class
 Runner\TestRunner.class
+Helpers\WaitHelper.class
+Helpers\WaitHelper$2.class
+Helpers\WaitHelper$1.class
