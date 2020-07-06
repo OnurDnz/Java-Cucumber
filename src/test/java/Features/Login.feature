@@ -1,6 +1,6 @@
 Feature: Login Case
 
-  Scenario: Login
-    Given I will launch browser
-    When I will search in search box
-    Then I will check page
+  Scenario: Successful Login with Valid Credentials
+    Given User is on Home Page
+    When User Navigate to LogIn Page
+    And User enters "testuser_1" and "Test@123"

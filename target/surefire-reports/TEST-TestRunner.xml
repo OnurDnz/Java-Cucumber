@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestRunner" time="9.74" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\onurd\IdeaProjects\SeleniumCucumber"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\onurd\IdeaProjects\SeleniumCucumber"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\onurd\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apps\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Gradle\gradle-6.4.1\bin;C:\Drivers\;C:\Users\onurd\AppData\Local\Android\Sdk\platform-tools\adb.exe;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\onurd\AppData\Local\Android\Sdk\platform-tools;C:\Users\onurd\AppData\Local\Android\Sdk\tools\bin;C:\Users\onurd\AppData\Local\Android\Sdk\tools;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\app\onurd\product\18.0.0\dbhomeXE\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\onurd\AppData\Local\Programs\Python\Python38;C:\Users\onurd\AppData\Local\Programs\Python\Python38\Scripts;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\apps\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Users\onurd\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Gauge\bin;C:\Users\onurd\.dotnet\tools;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\scoop\shims;C:\Users\onurd\AppData\Local\Microsoft\WindowsApps;C:\Users\onurd\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\onurd\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_251;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\bin;;C:\Users\onurd\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="maven.conf" value="C:\apps\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apps\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\onurd"/>
+    <property name="user.timezone" value="Asia/Istanbul"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1254"/>
+    <property name="user.name" value="onurd"/>
+    <property name="java.class.path" value="C:\apps\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_251\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="tr"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp857"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apps\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp857"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Successful Login with Valid Credentials" classname="Runner.TestRunner" time="9.413">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.fancybox\-item\ fancybox\-close&quot;}&#10;  (Session info: chrome=83.0.4103.116)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QO8SC6G&apos;, ip: &apos;172.30.192.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\onurd\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64509}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 87be3a9bcfd5ab60a4c8470e64fe93a6&#10;*** Element info: {Using=class name, value=fancybox-item fancybox-close}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".fancybox\-item\ fancybox\-close"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QO8SC6G', ip: '172.30.192.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\onurd\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64509}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 87be3a9bcfd5ab60a4c8470e64fe93a6
+*** Element info: {Using=class name, value=fancybox-item fancybox-close}
+</error>
+    <system-out><![CDATA[
+Scenario: Successful Login with Valid Credentials # src/test/java/Features/Login.feature:3
+  Given User is on Home Page                      # TestCases.LoginTest.userIsOnHomePage()
+  When User Navigate to LogIn Page                # TestCases.LoginTest.userNavigateToLogInPage()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".fancybox\-item\ fancybox\-close"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QO8SC6G', ip: '172.30.192.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\onurd\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64509}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 87be3a9bcfd5ab60a4c8470e64fe93a6
+*** Element info: {Using=class name, value=fancybox-item fancybox-close}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at TestCases.LoginTest.userNavigateToLogInPage_aroundBody2(LoginTest.java:44)
+	at TestCases.LoginTest$AjcClosure3.run(LoginTest.java:1)
+	at org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)
+	at TestCases.LoginTest.userNavigateToLogInPage(LoginTest.java:44)
+	at ?.User Navigate to LogIn Page(file:///C:/Users/onurd/IdeaProjects/SeleniumCucumber/src/test/java/Features/Login.feature:5)
+
+  And User enters "testuser_1" and "Test@123"     # TestCases.LoginTest.userEntersAnd(java.lang.String,java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 32452
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Tem 06, 2020 8:04:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

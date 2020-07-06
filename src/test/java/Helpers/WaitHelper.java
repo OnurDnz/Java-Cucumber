@@ -1,10 +1,10 @@
 package Helpers;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.*;
+
+import java.util.NoSuchElementException;
+import java.util.concurrent.TimeUnit;
 
 public class WaitHelper {
     private static void waitForDocumentLoad(WebDriver driver) {
@@ -31,4 +31,23 @@ public class WaitHelper {
         waitForDocumentLoad(driver);
     }
 
+    public static WebElement waitUntilFind(WebDriver driver, By by) {
+        try {
+            WebDriverWait wait = new WebDriverWait(driver, 30);
+            WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+            element = wait.until(ExpectedConditions.elementToBeClickable(by));
+            return element;
+        } catch (Exception e) {
+            throw e;
+        }
+    }
+
+    public static void waitUntil(WebDriver driver, By by) {
+        Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
+                .withTimeout(15, TimeUnit.SECONDS)
+                .pollingEvery(15, TimeUnit.MILLISECONDS)
+                .ignoring(NoSuchElementException.class)
+                .ignoring(StaleElementReferenceException.class)
+                .withMessage("Hata");
+    }
 }
